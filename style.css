@@ -66,3 +66,23 @@ header > .textbanner {
 	top: 40%;
 	left: 10%;
 }
+
+main {
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.front {
+	background-image: url(https://images.pexels.com/photos/13814644/pexels-photo-13814644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+}
